@@ -37,9 +37,9 @@ def predict_image(image, model):
 # TRIAGE
 # -------------------------
 def get_priority(score):
-    if score > 0.7:
+    if score > 0.50:
         return "HIGH"
-    elif score > 0.4:
+    elif score > 0.30:
         return "MEDIUM"
     else:
         return "LOW"
