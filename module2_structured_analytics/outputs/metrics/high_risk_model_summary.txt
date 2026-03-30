@@ -1,0 +1,5 @@
+                              accuracy  precision    recall  f1_score   roc_auc    pr_auc
+highrisk_logistic_regression    0.5240   0.536665  0.776526  0.634689  0.519166  0.547421
+highrisk_random_forest          0.5130   0.536962  0.620657  0.575784  0.501336  0.533824
+highrisk_logreg_smote           0.5145   0.557740  0.426291  0.483236  0.520412  0.548127
+highrisk_xgboost_smote          0.5070   0.539303  0.508920  0.523671  0.519839  0.553180
