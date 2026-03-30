@@ -1,0 +1,3 @@
+                     accuracy  precision    recall  f1_score   roc_auc    pr_auc
+logistic_regression    0.5560   0.033595  0.545455  0.063291  0.562973  0.043249
+random_forest          0.9725   0.000000  0.000000  0.000000  0.625375  0.043157
